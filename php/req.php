@@ -14,7 +14,7 @@ if(isset($_POST['val'])) {
 
 	if($res->num_rows > 0) {
 
-        $i = 0;
+                $i = 0;
 
 		while($row = $res->fetch_assoc()) {
 			$arr[$i++] = $row;
